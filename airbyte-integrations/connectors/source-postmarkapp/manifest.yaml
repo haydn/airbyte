@@ -38,7 +38,7 @@ definitions:
             field_name: offset
           page_size_option:
             type: RequestOption
-            field_name: offset
+            field_name: count
             inject_into: request_parameter
           pagination_strategy:
             type: OffsetIncrement
@@ -76,7 +76,7 @@ definitions:
             field_name: offset
           page_size_option:
             type: RequestOption
-            field_name: offset
+            field_name: count
             inject_into: request_parameter
           pagination_strategy:
             type: OffsetIncrement
@@ -114,7 +114,7 @@ definitions:
             field_name: offset
           page_size_option:
             type: RequestOption
-            field_name: offset
+            field_name: count
             inject_into: request_parameter
           pagination_strategy:
             type: OffsetIncrement
@@ -152,7 +152,7 @@ definitions:
             field_name: offset
           page_size_option:
             type: RequestOption
-            field_name: offset
+            field_name: count
             inject_into: request_parameter
           pagination_strategy:
             type: OffsetIncrement
@@ -190,7 +190,7 @@ definitions:
             field_name: offset
           page_size_option:
             type: RequestOption
-            field_name: offset
+            field_name: count
             inject_into: request_parameter
           pagination_strategy:
             type: OffsetIncrement
@@ -228,7 +228,7 @@ definitions:
             field_name: offset
           page_size_option:
             type: RequestOption
-            field_name: offset
+            field_name: count
             inject_into: request_parameter
           pagination_strategy:
             type: OffsetIncrement
